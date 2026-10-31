@@ -1,0 +1,8 @@
+1. Extraia este ZIP no computador.
+2. Abra a pasta extraída: dentro dela está a pasta assets.
+3. Abra seu repositório no GitHub na aba Code (página principal).
+4. Clique Add file > Upload files.
+5. Arraste a PASTA assets inteira para a área de envio. Não abra a pasta para arrastar apenas as imagens.
+6. A lista de envio deve mostrar caminhos como assets/logo.png e assets/chale-principal.jpg. Se mostrar apenas logo.png, está errado: cancele e arraste a pasta inteira.
+7. Clique Commit changes e aguarde a atualização do GitHub Pages.
+8. As fotos funcionarão no celular e no computador.
