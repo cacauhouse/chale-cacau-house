@@ -1,0 +1,9 @@
+CACAU HOUSE — MAPA GERAL COM TRILHAS A PÉ
+
+1. Extraia este ZIP em seu computador.
+2. Acesse github.com/cacauhouse/chale-cacau-house.
+3. Add file > Upload files.
+4. Envie os arquivos como-chegar.html, mapa-regiao.js, mapa-regiao.css e a pasta assets (contendo mapa-mini e as fotos .webp). Mantenha a estrutura de pastas ao enviar.
+5. Confirme Commit changes. Não apague os outros arquivos nem substitua a pasta assets inteira: acrescente os arquivos novos dentro dela.
+
+As trilhas são esquemáticas; não são trajetos GPS.
