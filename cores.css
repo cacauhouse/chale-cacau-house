@@ -1,19 +1,15 @@
-/* Cacau House keeps its original palette in every system theme. */
+/* Cacau House: light palette and clear map labels. Load after all other styles. */
 :root,html{color-scheme:only light}
 html,body{background-color:#e6dfc8;color:#232b1c}
 @media(prefers-color-scheme:dark){:root,html,body{color-scheme:only light}body{background-color:#e6dfc8;color:#232b1c}}
-/* Melhorar leitura do mapa geral */
-.regional-map-scroll svg text.region-name,
-.regional-map-scroll svg text.region-sub {
-  fill: #fff8eb !important;
-  stroke: #34271d !important;
-  stroke-width: 3px !important;
-  paint-order: stroke fill !important;
-  stroke-linejoin: round !important;
-  font-weight: 700 !important;
-}
-
-.regional-map-scroll svg .region-home text.region-name {
-  stroke: #812c19 !important;
-  stroke-width: 4px !important;
-}
+/* Remove all text outlines; some mobile darkening algorithms invert fill/stroke separately. */
+.regional-map-scroll svg text{stroke:none!important;stroke-width:0!important;paint-order:normal!important;text-shadow:none!important;filter:none!important}
+.regional-map-scroll svg{color-scheme:only light}
+.regional-map-scroll .region-name{font:600 22px Arial,Helvetica,sans-serif!important;fill:#232b1c}
+.regional-map-scroll .region-sub{font:16px Arial,Helvetica,sans-serif!important;fill:#3e4935}
+.regional-map-scroll .region-home .region-name{font-size:25px!important;fill:#922d15}
+.regional-map-scroll .region-zone{font-size:13px;fill:#575f4b}
+.regional-map-scroll .region-foot{font-size:12px;fill:#575f4b}
+.region-node .region-photo-ring{fill:#fff8e8;stroke:#777052;stroke-width:1.5}
+.regional-map-scroll image{image-rendering:auto}
+@media(max-width:650px){.regional-map-scroll svg{min-width:1000px}.regional-options{grid-template-columns:1fr}.regional-options button{font-size:18px}.regional-options small{font-size:13px;line-height:1.6}.regional-mobile-hint{display:block;margin-top:8px;font-weight:bold}.regional-caption{font-size:12px}}
