@@ -2,3 +2,18 @@
 :root,html{color-scheme:only light}
 html,body{background-color:#e6dfc8;color:#232b1c}
 @media(prefers-color-scheme:dark){:root,html,body{color-scheme:only light}body{background-color:#e6dfc8;color:#232b1c}}
+/* Melhorar leitura do mapa geral */
+.regional-map-scroll svg text.region-name,
+.regional-map-scroll svg text.region-sub {
+  fill: #fff8eb !important;
+  stroke: #34271d !important;
+  stroke-width: 3px !important;
+  paint-order: stroke fill !important;
+  stroke-linejoin: round !important;
+  font-weight: 700 !important;
+}
+
+.regional-map-scroll svg .region-home text.region-name {
+  stroke: #812c19 !important;
+  stroke-width: 4px !important;
+}
