@@ -1,0 +1,4 @@
+/* Cacau House keeps its original palette in every system theme. */
+:root,html{color-scheme:only light}
+html,body{background-color:#e6dfc8;color:#232b1c}
+@media(prefers-color-scheme:dark){:root,html,body{color-scheme:only light}body{background-color:#e6dfc8;color:#232b1c}}

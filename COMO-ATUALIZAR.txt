@@ -1,0 +1,15 @@
+ATUALIZAR ÍCONE, CORES E MAPAS
+
+1. Extraia este ZIP.
+2. No GitHub, abra Code > Add file > Upload files.
+3. Envie todos os arquivos HTML, CSS, JS e o arquivo favicon.svg deste pacote na pasta principal do repositório, substituindo os anteriores. Não envie o ZIP ou a pasta externa.
+4. Clique Commit changes e aguarde a publicação.
+5. Atualize a página. O ícone da aba pode exigir fechar a aba e abri-la novamente.
+
+Não é necessário reenviar as fotos. O pacote inclui as últimas correções dos mapas.
+
+Se o Samsung Internet continuar aplicando cores escuras por cima do site, desative o modo escuro para páginas da web nas configurações do navegador. O nome da opção pode variar com a versão.
+
+DOMÍNIO PRÓPRIO
+Para retirar github.io do endereço, registre um domínio ou use um domínio que já possui. Em Settings > Pages > Custom domain, informe o domínio sem https://. Depois configure os registros DNS no provedor do domínio e ative Enforce HTTPS quando disponível. Não salve um nome que ainda não tenha registrado.
+Documentação: https://docs.github.com/pt/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
