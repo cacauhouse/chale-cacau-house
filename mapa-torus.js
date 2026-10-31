@@ -30,7 +30,7 @@ function select(id,focus=false){
  const tag=document.createElement('p');tag.className='map-kicker';tag.textContent=p.category;
  const close=document.createElement('button');close.className='detail-close';close.textContent='Fechar ×';close.onclick=()=>{detail.hidden=true;selected=null;render();returnFocus?.focus()};
  detail.append(close,tag,heading);
- if(p.image){const img=document.createElement('img');img.className='detail-photo';img.src='assets/'+p.image;img.alt=p.name;detail.append(img)}
+ if(p.image){const img=document.createElement('img');img.className='detail-photo';img.src=''+p.image;img.alt=p.name;detail.append(img)}
  if(p.highlights){const facts=document.createElement('ul');facts.className='place-highlights';p.highlights.forEach(label=>{const item=document.createElement('li');item.textContent=label;facts.append(item)});detail.append(facts)}
  const text=document.createElement('p');text.textContent=p.text;detail.append(text);
  if(p.route){const b=document.createElement('button');b.className='button small';b.textContent='Destacar o caminho';b.onclick=()=>setRoute(p.route);detail.append(b)}

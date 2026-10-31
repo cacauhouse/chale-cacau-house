@@ -1,0 +1,12 @@
+CORREÇÃO DAS FOTOS — CACAU HOUSE
+
+As imagens do seu repositório estão na pasta principal. Os arquivos deste pacote foram ajustados para essa organização.
+
+1. Extraia este ZIP.
+2. No GitHub, abra o repositório chale-cacau-house na aba Code.
+3. Clique Add file > Upload files.
+4. Abra a pasta extraída e arraste os arquivos HTML e JS e qualquer CSS incluído. Eles devem ficar na pasta principal, substituindo os anteriores. NÃO envie o ZIP nem a pasta externa.
+5. Clique Commit changes e aguarde a publicação em Actions.
+6. Atualize o site; no computador use Ctrl+F5.
+
+Não é necessário apagar nem reenviar as fotos. Não é necessário mudar a branch nem as configurações do Pages.
