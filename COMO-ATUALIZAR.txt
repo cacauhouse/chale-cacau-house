@@ -1,8 +1,18 @@
-ATUALIZAR SOMENTE UM ARQUIVO
+ATUALIZAÇÃO DO MAPA GERAL — TEXTOS E FOTOS
 
-Extraia o ZIP. No repositório, em Code > Add file > Upload files, envie o arquivo cores.css na pasta principal. Ele deve substituir o cores.css anterior. Clique Commit changes e aguarde a publicação. Não precisa enviar os outros pacotes novamente.
+1. Extraia este ZIP.
+2. Abra seu repositório no GitHub, na aba Code.
+3. Clique Add file > Upload files.
+4. Envie os QUATRO arquivos deste pacote na pasta principal:
+   como-chegar.html
+   mapa-regiao.css
+   mapa-regiao.js
+   regional-fotos.css (arquivo novo, necessário)
+5. Clique Commit changes e aguarde a publicação em Actions.
+6. Atualize o site; no computador use Ctrl+Shift+R.
 
-Depois recarregue com Ctrl+Shift+R no computador. No celular, teste em uma nova aba privada.
+Os textos do mapa agora são textos HTML comuns, escuros e sem contorno. As fotos usam os nomes dos arquivos que já existem na pasta principal do seu GitHub. Não é necessário apagar ou reenviar fotos.
 
-FUNDO MARROM NO SAMSUNG INTERNET
-O site declara que usa apenas o tema claro. Se o navegador estiver forçando modo escuro nas páginas, ele pode alterar as cores mesmo assim. Abra o menu do Samsung Internet, entre nas configurações e desative o modo escuro para páginas da web. O nome exato da opção pode variar conforme a versão.
+Este pacote preserva os acessos por Ibicoara e Iramaia, as cachoeiras, a trilha do Fundão (20 min a pé do chalé) e as pinturas rupestres (30 min a pé da Raposa).
+
+No celular, deslize o mapa na horizontal para explorar todos os pontos. Os roteiros também aparecem em botões abaixo do mapa.

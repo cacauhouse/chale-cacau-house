@@ -1,0 +1,12 @@
+/* Readable HTML labels and real photo markers, independent of SVG text outlines. */
+.regional-stage{position:relative;width:100%;min-width:1050px;aspect-ratio:1150/740;background:#f3eedf;color:#232b1c;color-scheme:only light}
+.regional-map-scroll .regional-stage>.regional-route-drawing{position:absolute;inset:0;width:100%;height:100%;min-width:0!important;display:block;pointer-events:none}
+.regional-html-node{position:absolute;z-index:2;width:180px;transform:translate(-50%,-32px);text-align:center;pointer-events:none;font-family:Arial,Helvetica,sans-serif;color:#232b1c}
+.regional-node-photos{display:flex;height:64px;align-items:center;justify-content:center;margin-bottom:7px}
+.regional-node-photos img{display:block;width:64px;height:64px;object-fit:cover;border:2px solid #f3eedf;outline:1px solid #777052;border-radius:50%;background:#e6dfc8;max-width:none;box-shadow:none;filter:none}
+.regional-node-photos img+img{margin-left:-5px}
+.regional-html-name{display:table;max-width:180px;margin:0 auto;padding:3px 5px;font:700 16px/1.3 Arial,Helvetica,sans-serif;color:#232b1c;background:#f3eedf;border-radius:3px;text-shadow:none!important;-webkit-text-stroke:0!important;filter:none!important;letter-spacing:0}
+.regional-html-sub{display:table;max-width:180px;margin:2px auto 0;padding:2px 4px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#3e4935;background:#f3eedf;border-radius:3px;text-shadow:none!important;-webkit-text-stroke:0!important;filter:none!important}
+.regional-node-dot{display:block;width:12px;height:12px;border:2px solid #f3eedf;background:#575f4b;border-radius:50%;margin:0 auto 7px}
+.regional-html-node.is-town{transform:translate(-50%,-6px)}
+@media(max-width:650px){.regional-map-scroll .regional-stage{min-width:1050px}.regional-html-name{font-size:16px}.regional-html-sub{font-size:13px}.regional-mobile-hint{display:block;font-weight:bold;font-size:13px}.regional-map-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}.regional-options{grid-template-columns:1fr}.regional-options button{font-size:17px;min-height:56px}.regional-options small{font-size:13px}}
