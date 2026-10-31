@@ -1,18 +1,1 @@
-ATUALIZAÇÃO DO MAPA GERAL — TEXTOS E FOTOS
-
-1. Extraia este ZIP.
-2. Abra seu repositório no GitHub, na aba Code.
-3. Clique Add file > Upload files.
-4. Envie os QUATRO arquivos deste pacote na pasta principal:
-   como-chegar.html
-   mapa-regiao.css
-   mapa-regiao.js
-   regional-fotos.css (arquivo novo, necessário)
-5. Clique Commit changes e aguarde a publicação em Actions.
-6. Atualize o site; no computador use Ctrl+Shift+R.
-
-Os textos do mapa agora são textos HTML comuns, escuros e sem contorno. As fotos usam os nomes dos arquivos que já existem na pasta principal do seu GitHub. Não é necessário apagar ou reenviar fotos.
-
-Este pacote preserva os acessos por Ibicoara e Iramaia, as cachoeiras, a trilha do Fundão (20 min a pé do chalé) e as pinturas rupestres (30 min a pé da Raposa).
-
-No celular, deslize o mapa na horizontal para explorar todos os pontos. Os roteiros também aparecem em botões abaixo do mapa.
+Extraia este ZIP. No GitHub, em Code > Add file > Upload files, envie guia.html e boas-vindas-varanda.jpg na pasta principal do repositório. O guia.html deve substituir o anterior. Clique Commit changes e aguarde a publicação. Não é necessário mudar outros arquivos nem criar uma pasta assets. A foto foi colocada na abertura da página Boas-vindas e o enquadramento foi conferido no computador e no celular.
