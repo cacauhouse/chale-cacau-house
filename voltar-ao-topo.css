@@ -1,0 +1,32 @@
+.back-to-top {
+  position: fixed;
+  left: max(16px, env(safe-area-inset-left));
+  bottom: calc(18px + env(safe-area-inset-bottom));
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #575f4b !important;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.back-to-top[hidden] { display: none !important; }
+.back-to-top svg {
+  display: block;
+  width: 24px;
+  height: 28px;
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 1.35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.back-to-top:hover { color: #232b1c !important; }
+.back-to-top:focus-visible { outline: 2px solid #575f4b; outline-offset: 2px; }
+@media print { .back-to-top { display: none !important; } }
